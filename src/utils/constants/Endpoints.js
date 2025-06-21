@@ -1,4 +1,4 @@
-export const MAIN_URL = "http://localhost:3000";
+export const MAIN_URL = "https://bmi-back.onrender.com/swagger";
 
 
 export const ENDPOINTS = {
