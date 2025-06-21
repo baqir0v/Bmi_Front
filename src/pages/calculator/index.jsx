@@ -50,7 +50,7 @@ const Calculator = () => {
 
       userMutation(payload, {
         onSuccess: () => {
-          toast.success("Navbar item added successfully", {
+          toast.success("Your BMI added successfully", {
             position: "top-right",
             autoClose: 3000,
             theme: "colored",
@@ -60,7 +60,7 @@ const Calculator = () => {
           setSubmitting(false);
         },
         onError: (error) => {
-          toast.error(error || "Failed to add Navbar item", {
+          toast.error(error || "Failed to add BMI", {
             position: "top-right",
             autoClose: 3000,
             theme: "colored",
