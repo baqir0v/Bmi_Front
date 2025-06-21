@@ -7,7 +7,7 @@ export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/",
   build: {
     rollupOptions: {
-      external: ['formik']
+      external: ['formik','yup']
     }
   }
 })
